@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Hrms.tests.TestPIMPage">
+      <class name="com.Hrms.tests.TestLoginPage">
         <methods>
-          <include name="editEmployeeDetails"/>
-          <include name="addEmployeePhotos"/>
-          <include name="editEmploymentStatus"/>
-          <include name="viewEmployeeList"/>
+          <include name="verifyLoginPage"/>
           <include name="setup"/>
-          <include name="filterEmployeeList"/>
-          <include name="addEmployee"/>
-          <include name="viewEmployeeDetails"/>
-          <include name="deleteEmployee"/>
           <include name="close"/>
         </methods>
-      </class> <!-- com.Hrms.tests.TestPIMPage -->
+      </class> <!-- com.Hrms.tests.TestLoginPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
